@@ -1,0 +1,101 @@
+body{
+    margin-left: 25px;
+  
+}
+.box{
+    background-color: rgb(145, 5, 5);
+    width:100%;
+    display: flex;
+    margin-right: 100px;
+    
+}
+.sub1{
+    width:50%;
+    padding-left: 100px;
+    margin-top: 250px;
+    border:2px solid black;
+}
+
+
+.sub1 h1{
+    font-size: 65px;
+    font-family: Arial Black;
+    color: white;
+    line-height: 20px;    
+}
+ 
+
+.sub1 p{
+    width:400px;
+    font-family: calibri;
+}
+
+.sub1 h2{
+    
+    font-size: 22px;
+    font-family: Arial Black;
+    width:400px;
+
+}
+.img-1{
+
+        height:120px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+} 
+.sub2{
+    display:flex;
+    flex-direction: column;
+    width:50%;
+    /* position: relative; */
+    border:2px solid black;
+    margin-top: 60px;
+    
+   
+}
+.img-2{
+    display: flex;
+    width:100px;
+    margin-left: 500px;
+    filter: brightness(10);
+    /* position:absolute;
+    right:0;
+    bottom: 0; */
+}
+
+.one{
+    width: 450px;
+    height: 60px;
+    background: none;
+    border: 2px solid white; 
+    margin:10px;  
+
+}
+input::placeholder{
+    color: white;
+}
+
+.sub2 h1{
+    font-family: Arial black;
+    font-size: 40px;
+    margin:10px;
+    line-height: 20px;
+
+}
+
+.sub2 p{
+    color:white;
+    font-family: Arial;
+    font-size: 12px;
+    margin:10px;
+}
+label{
+    color:white;
+    font-family: Arial;
+}
+.two{
+    width:450px;
+     height: 60px;
+     margin-left: 10px;
+}
+
