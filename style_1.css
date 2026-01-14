@@ -2,6 +2,7 @@ body{
     margin-left: 25px;
   
 }
+
 .box{
     background-color: rgb(145, 5, 5);
     width:100%;
@@ -13,7 +14,7 @@ body{
     width:50%;
     padding-left: 100px;
     margin-top: 250px;
-    border:2px solid black;
+   
 }
 
 
@@ -37,6 +38,45 @@ body{
     width:400px;
 
 }
+.o1{
+    /* height:16px;
+    width:20px; */
+    margin-left: 400px;
+}
+.o11{
+     margin-left: 370px;
+}
+
+ .o2{
+    margin-left: 8px;
+    height:16px;
+    width:16px;
+    appearance: none;
+    border: 1px solid white;
+ }
+
+.o2:checked::after {
+    content: '✓';
+    color: white;
+    font-size: 4vh;
+    text-align: center;
+    line-height: 2px;
+}
+ .o3{
+    margin-left: 120px;
+ }
+  .o4{
+    margin-left: 84px;
+ }
+  .o5{
+    margin-left: 60px;
+ }
+  .o6{
+    margin-left: 60px;
+ }
+  .o7{
+    margin-left: 65px;
+ }
 .img-1{
 
         height:120px;
@@ -47,20 +87,14 @@ body{
     display:flex;
     flex-direction: column;
     width:50%;
-    /* position: relative; */
-    border:2px solid black;
     margin-top: 60px;
-    
-   
+     
 }
 .img-2{
     display: flex;
     width:100px;
     margin-left: 500px;
     filter: brightness(10);
-    /* position:absolute;
-    right:0;
-    bottom: 0; */
 }
 
 .one{
@@ -69,15 +103,26 @@ body{
     background: none;
     border: 2px solid white; 
     margin:10px;  
+    
 
 }
 input::placeholder{
     color: white;
+    padding-left: 10px;
 }
 
+textarea::placeholder{
+    margin-left: 100px;
+    color: white;
+    font-family: Arial;
+    padding-left: 10px;
+    padding-top: 10px;
+
+    
+}
 .sub2 h1{
     font-family: Arial black;
-    font-size: 40px;
+    font-size: 28px;
     margin:10px;
     line-height: 20px;
 
@@ -93,9 +138,17 @@ label{
     color:white;
     font-family: Arial;
 }
+
+
 .two{
-    width:450px;
+     width:430px;
      height: 60px;
      margin-left: 10px;
+     margin-top: 30px;
+     font-size: 35px;
 }
+
+
+
+
 
