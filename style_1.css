@@ -48,7 +48,7 @@ body{
 }
 
  .o2{
-    margin-left: 8px;
+    margin:0 10px;
     height:16px;
     width:16px;
     appearance: none;
@@ -96,7 +96,10 @@ body{
     margin-left: 500px;
     filter: brightness(10);
 }
-
+.chec{
+    display: flex;
+    align-items: center;
+}
 .one{
     width: 450px;
     height: 60px;
