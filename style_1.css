@@ -7,12 +7,12 @@ body{
     width:100%;
     display: flex;
     margin-right: 100px;
-    
 }
+
 .sub1{
     width:50%;
     padding-left: 100px;
-    margin-top: 250px;
+    margin-top: 50px;
 }
 
 .sub1 h1{
@@ -28,11 +28,15 @@ body{
 }
 
 .sub1 h2{
-    
     font-size: 22px;
     font-family: Arial Black;
     width:400px;
+}
 
+.sub1 h3{
+    font-size: 40px;
+    color: white;
+    font-family: Arial Black;
 }
 .o1{
     /* height:16px;
@@ -137,6 +141,10 @@ textarea::placeholder{
     font-size: 12px;
     margin:10px;
 }
+.sub2 h2{
+    color:white;
+    font-family: Arial Black;
+}
 label{
     color:white;
     font-family: Arial;
@@ -150,7 +158,16 @@ label{
      font-size: 35px;
 }
 
-
+option{
+    color:black;
+}
+.gender{
+    display: flex;
+    gap: 30px;
+}
+input[type="radio"]{
+    margin-left: 10px;
+}
 
 
 
