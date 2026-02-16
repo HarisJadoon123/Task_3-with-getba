@@ -14,11 +14,13 @@ function submission(e){
 
     else if( email.value.trim() ==="")
         alert("Please Enter Your Email Address ");
+    else if(/\d/g.test(name.value) )
+        alert("Invalid Emial Adrees");
+     
 
-
-   else if( organization.value.trim() ==="")
-        alert("Please Enter Your Organization Name");
-
+   else if( dob.value.trim() ==="")
+        alert("Please Enter Your Date Of Birth");
+    
    else
     alert("FORM SUBMITTED SUCCESSFULLY")
 }
