@@ -16,6 +16,7 @@
         <div class="sub1">
             <h3> Choose Profile Picture</h3>
             <input type="file" id="picture" class="one">
+            <div id="error5" style="color:yellow; font-size:14px; margin-left: 10px;"></div>
             <h1>Submission</h1>
             <p>All detail of submission will be kept strictly private and confidential by Mailman and will not be used
                 for any purpose other than judging Red Card 2018 winners.</p>
@@ -25,23 +26,23 @@
         </div>
         <div class="sub2">
             <input type="text" id="name" class="one" placeholder="Name">
-            <div id="error" style="color:red; font-size:14px;"></div>
+            <div id="error" style="color:yellow; font-size:14px; margin-left: 10px;"></div>
             <input type="text" id="email" class="one" placeholder="Email Adress">
-            <div id="error" style="color:red; font-size:14px;"></div>
-            <input type="text" id="dob" class="one" placeholder="Date of Birth">
-            <div id="error" style="color:red; font-size:14px;"></div>
+            <div id="error1" style="color:yellow; font-size:14px; margin-left: 10px;"></div>
+            <input type="date" id="dob" class="one" placeholder="Date of Birth">
+            <div id="error2" style="color:yellow; font-size:14px; margin-left: 10px;"></div>
             <input type="text" id="phone" class="one" placeholder="Phone Number">
-            <div id="error" style="color:red; font-size:14px;"></div>
+            <div id="error3" style="color:yellow; font-size:14px; margin-left: 10px;"></div>
             <input type="text" id="cnic" class="one" placeholder="CNIC Number">
-            <div id="error" style="color:red; font-size:14px;"></div>
+            <div id="error4" style="color:yellow; font-size:14px; margin-left: 10px;"></div>
             <h2>Select Your Gender</h2>
             <div class="gender">
-               <label> 
-                <input type="radio" id="male" name="gender" value="male">
-                Male</label>
                 <label>
-                <input type="radio" id="female" name="gender" value="female">
-                Female</label>
+                    <input type="radio" id="male" name="gender" value="male" checked>
+                    Male</label>
+                <label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    Female</label>
             </div>
 
             <select name="" id="" class="one">
